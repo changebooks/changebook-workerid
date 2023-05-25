@@ -1,0 +1,44 @@
+{
+  "properties": [
+    {
+      "name": "zookeeper.connect-string",
+      "type": "java.lang.String",
+      "sourceType": "io.github.changebooks.workerid.ZookeeperProperties"
+    },
+    {
+      "name": "zookeeper.base-path",
+      "type": "java.lang.String",
+      "sourceType": "io.github.changebooks.workerid.ZookeeperProperties"
+    },
+    {
+      "name": "zookeeper.max-retries",
+      "type": "java.lang.Integer",
+      "sourceType": "io.github.changebooks.workerid.ZookeeperProperties"
+    },
+    {
+      "name": "zookeeper.base-sleep-ms",
+      "type": "java.lang.Integer",
+      "sourceType": "io.github.changebooks.workerid.ZookeeperProperties"
+    },
+    {
+      "name": "zookeeper.max-sleep-ms",
+      "type": "java.lang.Integer",
+      "sourceType": "io.github.changebooks.workerid.ZookeeperProperties"
+    },
+    {
+      "name": "worker-id.min-id",
+      "type": "java.lang.Integer",
+      "sourceType": "io.github.changebooks.workerid.WorkerIdProperties"
+    },
+    {
+      "name": "worker-id.max-id",
+      "type": "java.lang.Integer",
+      "sourceType": "io.github.changebooks.workerid.WorkerIdProperties"
+    },
+    {
+      "name": "worker-id.group-id",
+      "type": "java.lang.String",
+      "sourceType": "io.github.changebooks.workerid.WorkerIdProperties"
+    }
+  ]
+}
